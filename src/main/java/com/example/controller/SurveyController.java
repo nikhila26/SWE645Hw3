@@ -24,7 +24,7 @@ public class SurveyController {
 	}
 
 	// Endpoint to get all surveys
-	@GetMapping("/api/surveys")
+	@GetMapping("/api/students")
 	public List<SurveyModel> getAllSurveys() {
 		return surveyService.getAllSurveys();
 	}
